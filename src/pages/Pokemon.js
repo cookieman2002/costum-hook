@@ -12,20 +12,32 @@ export default function Pokemon() {
   const styles = {
     heading: css`
       text-transform: capitalize;
+      text-align: center;
     `,
     pokemon: css`
-      display: flex;
-      align-content: center;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
+      display: grid;
+      grid-area: 
+      "a a a a b b b b"
+      "a a a a b b b b"
+      "c c c c b b b b"
+      "c c c c b b b b"
+
+
+      
     `,
     images: css`
       border: solid;
       background-color: grey;
+      grid: a
     `,
     stats: css`
       background-color: red;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      grid: c
     `,
   };
   return (

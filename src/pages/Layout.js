@@ -24,7 +24,7 @@ export default function Layout() {
   return (
     <div>
       <header css={styles.navbar}>
-        <h1>Pokemons</h1>
+        <h1>Pokedex</h1>
         <nav>
           <menu>
             <li>

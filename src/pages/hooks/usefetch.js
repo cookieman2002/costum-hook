@@ -12,11 +12,13 @@ export default function useFetch(url) {
 				const json = await response.json()
 				setData(json)
 				setIsLoading(false)
+				
 			} catch (error) {
 				setError(error)
 			}
 		})()
-	}, [])
+	}, [url])
+	
 
 	return { data, isLoading, error }
 }

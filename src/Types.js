@@ -4,7 +4,7 @@ export default function Types({ types }) {
       <ul>
         <h1>Types</h1>
         {types.map((type) => (
-          <li>{type.type.name}</li>
+          <li key={type.type.name}>{type.type.name}</li>
         ))}
       </ul>
     </>

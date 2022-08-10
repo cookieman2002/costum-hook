@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import Pokemon from "./pages/Pokemon";
+import "./background.css"
+
 function App() {
   return (
     <BrowserRouter>
